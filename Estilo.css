@@ -1,0 +1,156 @@
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #333;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav ul {
+  margin: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Formulario de contacto */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #555;
+}
+
+#contacto {
+  margin-top: 20px;
+}
+button {
+  background-color: #2c3e50; /* Color de fondo oscuro */
+  color: #fff; /* Color del texto blanco */
+  border: none; /* Elimina el borde predeterminado */
+  border-radius: 8px; /* Bordes más redondeados para un diseño más suave */
+  padding: 12px 24px; /* Espaciado interno aumentado para un botón más prominente */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Negrita para mayor énfasis */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+  display: inline-block; /* Asegura que el botón se comporte correctamente con los márgenes */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+  background-color: #34495e; /* Color de fondo más claro al pasar el cursor */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}
+
+/* Efecto focus para el botón */
+button:focus {
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  box-shadow: 0 0 0 2px rgba(44, 62, 80, 0.5); /* Sombra de enfoque sutil */
+}
+
+/* Estilo del contenedor del botón */
+.button-container {
+  text-align: center; /* Centra el contenido del contenedor */
+  margin: 40px auto; /* Espaciado arriba y abajo y centrado automático */
+  padding: 0 20px; /* Espa
